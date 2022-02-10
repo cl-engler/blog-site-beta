@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Curtis' Test Blog</title>
+</head>
+<header>
+  <%- include("partials/header"); -%>
+</header>
+
+<body class="body">
+<h1>Compose</h1>
+  <form class="post" action="/compose" method="post">
+
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input name="postTitle" type="text" class="form-control" id="newTitle">
+      </div>
+      <div class="mb-3">
+        <label for="body" class="form-label">Body</label>
+        <textarea name="postBody" class="form-control" id="newBody" rows="6"></textarea>
+    </form>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</body>
+<footer>
+  <%- include("partials/footer"); -%>
+</footer>
+
+</html>
