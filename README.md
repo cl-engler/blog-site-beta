@@ -1,2 +1,2 @@
 # blog-site-beta
-Creating a blog VIA App Brewery template and course
+Creating a blog VIA App Brewery template and course using EJS
